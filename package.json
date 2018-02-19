@@ -1,0 +1,42 @@
+{
+  "name": "ford-api",
+  "version": "1.0.0",
+  "description": "A app to analyze data from social networks",
+  "author": "Bianca Goncalves",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "node node_modules/bower/bin/bower install --config.directory=abower_components"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "bower": "^1.8.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp-bower": "0.0.13",
+    "gulp-ng-constant": "^1.1.0",
+    "gulp-watch": "^4.3.5"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "3.3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bih-goncalves/ford-api.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bih-goncalves/ford-api/issues"
+  },
+  "homepage": "https://github.com/bih-goncalves/ford-api#readme",
+  "main": "server.js"
+}
