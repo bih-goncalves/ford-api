@@ -27,5 +27,8 @@ app.use(function (req, res, next) {
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
+app.get('/subindex', function (req, res) {
+  res.sendFile(__dirname + '/subindex.html');
+});
 
 console.log('App listening on port ' + PORT);
